@@ -1,0 +1,12 @@
+[project]
+name = "apuradornotas"
+version = "0.1.0"
+requires-python = ">=3.14"
+dependencies = [
+    "numpy>=2.5.4",
+    "pandas>=3.1.1",
+    "pdfplumber>=0.11.10",
+    "plotly>=7.1.0",
+    "pypdf>=7.0.0",
+    "streamlit>=1.50",
+]
