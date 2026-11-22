@@ -145,8 +145,3 @@ def get_enrolled_subjects(pdf_data, default_target_average=5.0, min_default_unit
 
     return consolidated_df, column_config
 
-
-if __name__ == "__main__":
-    pdf_data = extract_pdf_data(pdf_path)
-    print("Chaves extraídas:", list(pdf_data.keys()))
-    print("Períodos encontrados:", pdf_data.get("periodos"))
